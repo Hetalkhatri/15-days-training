@@ -1,1 +1,38 @@
 
+<!DOCTYPEhtml>
+<html>
+<head></head>
+<body>
+<form>
+<center><h1>registrationform</h1></center>
+<hr>
+<label>Firstname</label>
+<inputtype="text"name="firstname"placeholder="Firstname"size="15"required/><br><br>
+<label>Middlename</label>
+<inputtype="text"name="middlename"placeholder="Middlename"size="15"required/><br><br>
+<label>Lastname</label>
+<inputtype="textname="lastname"placeholder="lastname"size="15"required/><br><br>
+<br>
+<label>Gender</lable><br>
+<inputtype="radio"name="male"/>male<br>
+<inputtype="radio"name="female"/>female<br>
+<inputtype="radio"name="other"/>other
+<br>
+<br>
+<label>Phone</label>
+<inputtype="text"name="countrycode=placeholder="countrycodevalue="+91"
+size="2"/><br><br>
+Currentaddress:
+ <textarea cols="80" rows="5" placeholder="Current address" value="address"required/>
+ </textarea><br><br>
+ <label for="email"><b>Email</b></label>
+ <input type="text" placeholder="enter email" name="email" required/><br><br>
+ <label for="psw"><b>Password</b></label>
+ <input type="password" placeholder="Enter Password" name="psw" required/><br><br>
+ <label for="psw-repeat"><b>Re-type Password</b>
+ </label>
+ <input type="password" placeholder="Re-type Password" name="psw-repeat" required/><br><br>
+ <button type="submit" class="registrationbtn">Register</button>
+ </form>
+ </body>
+ </html>
